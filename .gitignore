@@ -1,0 +1,5 @@
+.idea
+.ssh
+.venv
+
+data/*

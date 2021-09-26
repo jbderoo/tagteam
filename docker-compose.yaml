@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+    tagteam:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./src/:/root/projects/tagteam/src
+            - ./data/:/root/projects/tagteam/data
